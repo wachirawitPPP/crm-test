@@ -1,0 +1,47 @@
+/* Colors for each day of the week */
+.flatpickr-day.monday {
+  background-color: #ffc0cb !important; /* Pink */
+  color: white !important;
+  border-radius: 10px;
+}
+.flatpickr-day.tuesday {
+  background-color: #ffa500 !important; /* Orange */
+  color: white !important;
+  border-radius: 10px;
+}
+.flatpickr-day.wednesday {
+  background-color: #00ff00 !important; /* Green */
+  color: white !important;
+  border-radius: 10px;
+}
+.flatpickr-day.thursday {
+  background-color: #800080 !important; /* Purple */
+  color: white !important;
+  border-radius: 10px;
+}
+.flatpickr-day.friday {
+  background-color: #d3d3d3 !important; /* Light Gray */
+  color: black !important;
+  border-radius: 10px;
+}
+.flatpickr-day.saturday {
+  background-color: #add8e6 !important; /* Blue */
+  color: white !important;
+  border-radius: 10px;
+}
+.flatpickr-day.sunday {
+  background-color: #ff0000 !important; /* Red */
+  color: white !important;
+  border-radius: 10px;
+}
+/* Color for today */
+.flatpickr-day.today {
+  background-color: #00ad98 !important; /* Greenish color for today */
+  color: white !important;
+  border-radius: 10px;
+}
+/* Disable click events */
+.flatpickr-day.disabled-day {
+  pointer-events: none; /* Disable click */
+  opacity: 1 !important; /* Keep color and style */
+}
